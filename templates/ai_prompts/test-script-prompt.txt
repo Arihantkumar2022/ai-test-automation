@@ -1,0 +1,50 @@
+Please create a Python Selenium script for the following test case:
+
+Test Case ID: {test_id}
+Test Scenario: {test_scenario}
+
+Steps to Execute:
+{steps}
+
+Expected Result:
+{expected_result}
+
+Generate a complete, executable Python script using Selenium WebDriver that follows these steps exactly. Include proper waits, assertions, and exception handling. The script should be well-commented and follow best practices for Selenium automation.
+
+Please use the following imports and structure:
+```python
+from selenium import webdriver
+from selenium.webdriver.chrome.service import Service
+from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.chrome.service import Service
+from webdriver_manager.chrome import ChromeDriverManager
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.common.exceptions import TimeoutException
+import unittest
+import time
+
+class TestCase(unittest.TestCase):
+    def setUp(self):
+        # Setup code here
+        pass
+        
+    def tearDown(self):
+        # Cleanup code here
+        pass
+        
+    def test_scenario(self):
+        # Test implementation here
+        pass
+        
+if __name__ == "__main__":
+    unittest.main()
+```
+
+Make sure your code:
+1. Uses appropriate locators (ID, CSS selector, XPath, etc.)
+2. Includes proper waits for elements to be visible/clickable
+3. Has clear assertions to validate the expected results
+4. Handles potential exceptions
+5. Is well-commented to explain the logic
