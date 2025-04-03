@@ -34,7 +34,7 @@ This project aims to simplify test automation by using AI to generate test cases
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/ai-test-automation.git
+   git clone https://github.com/Arihantkumar2022/ai-test-automation.git
    cd ai-test-automation
    ```
 
@@ -157,9 +157,7 @@ The script generation process:
 5. **Feedback Loop**: Incorporate test execution results to improve future test generation
 6. **Support for More Complex Scenarios**: Handle multi-page flows and state-dependent interactions
 
-## GenAI Conversation Link
 
-[Link to the GenAI conversation used for generating test cases and scripts](https://chat.anthropic.com/conversation/123456)
 
 ---
 
